@@ -53,7 +53,7 @@ def main(message):
                  'access-key=', 'access-secret=', 'encoding=']
     opts, args = getopt.gnu_getopt(sys.argv[1:], shortflags, longflags)
   except getopt.GetoptError:
-    PrintUsageAndExit()
+    print("No file exception")
   consumer_keyflag = None
   consumer_secretflag = None
   access_keyflag = None
